@@ -50,6 +50,10 @@ function draw() {
 
         }
 
+        if(bubbles[i].x >= width || bubbles[i].y >= height){
+            spawn(i)
+        }
+
     }
 
 }
