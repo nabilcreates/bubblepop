@@ -9,7 +9,7 @@ function preload() {
 
 function setup() {
 
-    createCanvas(500, 500)
+    createCanvas(windowWidth, windowHeight)
 
     for (var i = 0; i < 20; i++) {
         newb = new Bubble({
